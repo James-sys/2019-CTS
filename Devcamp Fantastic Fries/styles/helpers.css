@@ -11,3 +11,9 @@
 .anchor-link:focus{
     outline: none;
 }
+
+.anchor-link h1::after{
+    font-family: "Font Awesome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+}
