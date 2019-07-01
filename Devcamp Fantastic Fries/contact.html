@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="styles/page-container.css"/>
     <link rel="stylesheet" href="styles/helpers.css"/>
     <link rel="stylesheet" href="styles/contact.css"/>
+    <link rel="stylesheet" href="styles/form.css"/>
+    <link rel="stylesheet" href="styles/buttons.css"/>
     
 </head>
 <body>
@@ -66,7 +68,7 @@
                         123 Any St<br>Scottsdale, AZ, 85251
                     </div>
                 </div>
-                
+
                 <div class="company-details-wrapper">
                     <i class="fas fa-phone-volume"></i>
 
@@ -85,23 +87,25 @@
 
 
                 </div>
-            </div>
 
             <div class="form">
                 <div class="form-group">
-                    Name
+                    <input type="text" id="fullName" placeholder="Your Name">
+                    <label for="fullName">Your Name</label>
                 </div>
 
                 <div class="form-group">
-                    Email
+                    <input type="email" id="email" placeholder="Your Email">
+                    <label for="email">Your Email</label>
                 </div>
 
                 <div class="form-group">
-                    Message
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
                 </div>
 
                 <div class="centered-btn-wrapper">
-                    <button type="submit">Send</button>
+                    <button type="submit" class="btn">Send</button>
                 </div>
             </div>
         </div>  
