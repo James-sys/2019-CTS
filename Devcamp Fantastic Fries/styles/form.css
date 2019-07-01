@@ -47,5 +47,13 @@
     display: block;
     transition: all 0.3s;
     color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(1rem);
 }
 
