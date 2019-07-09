@@ -3,3 +3,9 @@ body{
 }
 
 /* Nav bar styles */
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100%;
+    grid-row: 1fr;
+}
