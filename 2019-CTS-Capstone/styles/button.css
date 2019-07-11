@@ -1,0 +1,37 @@
+/* Button Styles */
+#create-btn{
+    background-color: #36383F;
+    color: white;
+}
+
+#create-btn-down{
+    color: #47cf73;
+    font-size: 23px;
+    text-align: right;
+}
+
+#login-btn{
+    background-color: #36383F;
+    color: white;
+}
+
+#signup-btn{
+    background-color: #36383F;
+    color: white;
+}
+
+.buttons{
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: solid 3px transparent;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#search-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+}

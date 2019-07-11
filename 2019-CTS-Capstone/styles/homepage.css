@@ -1,0 +1,16 @@
+/* Common Styles */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif'
+}
+
+
+/* Center Homepage Content Styles */
+.center-content{
+    background: radial-gradient(circle farthest-corner at 200px 0, #434752, #000);
+}
+
+.center-content-img img{
+    height: 500px;
+    width: 100%;
+}
+
