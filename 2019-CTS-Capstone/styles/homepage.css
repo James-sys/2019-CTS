@@ -7,6 +7,12 @@ body{
 /* Center Homepage Content Styles */
 .center-content{
     background: radial-gradient(circle farthest-corner at 200px 0, #434752, #000);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.center-content-img{
+    margin-top: 5px;
 }
 
 .center-content-img img{
@@ -14,3 +20,43 @@ body{
     width: 100%;
 }
 
+.center-content > .center-content-text{
+    padding: 45px;
+}
+
+.center-content > .center-content-text > #front-page-center-text-1{
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+} 
+
+.center-content > .center-content-text > #front-page-center-text-2{
+    color: #b3b3b3;
+    padding: 0.5rem 0;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.center-content > .center-content-text > .center-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.center-content > .center-right-content{
+    color: white;
+    margin-top: 10px;
+}
+
+.center-content > .center-right-content span{
+    margin-left: 40px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+.center-content > .center-right-content a{
+    text-decoration: none;
+    color: #76DAFF
+}
